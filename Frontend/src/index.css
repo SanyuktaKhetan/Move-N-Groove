@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.max-w-screen-2xl.container.mx-auto.md\:px-20.px-4.dark\:bg-slate-800.dark\:text-white.fixed.top-0.left-0.right-0.z-50{
+  background-color: #FF8103;
+  color: black;
+}
+.t1{
+  text-shadow: 5px 3px 3px black;
+  font-size: 35px;
+  color: #FBDD49;
+}
+
+.n_list{
+  font-size: 20px;
+  text-shadow: 1px 0px 2px white;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.n_list:hover{
+  border: 2px solid black;
+  background-color: #ff1c6b95;
+}
+.n_list a:active{
+  background-color: transparent !important;
+  color: white;
+}
+.i_1{
+  display: none;
+}
+
+svg.swap-off.fill-current.w-7.h-7,svg.swap-on.fill-current.w-7.h-7{
+  display: none;
+}
+.search{
+  background-color: #FF1C6A;
+  border: 2px solid rgb(118, 118, 118);
+  border-radius: 10px;
+}
+.search input {
+  background-color: #FF1C6A;
+  color: white;
+  font-weight: 900;
+  font-size: 15px;
+  font-weight: 600;
+}
+.login_btn a{
+  border: 2px solid white;
+}
+.login_btn a:hover{
+  background-color: white;
+  color: black;
+  border:2px solid black;
+  font-weight: 600;
+}
+.b_1{
+  background-image: url("./images/image.png");
+  background-size: cover;
+  height: 640px;
+  text-align: center;
+}
+.tag_1 h1{
+  font-size: 50px;
+  color: white;
+  line-height: 110px;
+  text-align: center;
+  font-family: "Lugrasimo", cursive;
+  text-shadow: 2px 2px 2px #FF1C6A;
+}
+.tag_1 span{
+  text-shadow: 2px 2px 2px white;
+  color:#FF1C6A;
+}
+.btn_1{
+  background-color: white;
+  color: #FF1C6A;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 30px;
+  border: 2px solid black;
+}
+.btn_1:hover{
+  color: black;
+  border: 2px solid black;
+  background-color: #FF1C6A;
+}
+.row_1{
+  display: flex;
+}
+.row_1 .col{
+  width: 33.33%; 
+}
+
+.tag_2{
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #FBDD49;
+  color: #000000;
+  font-family: popings;
+  line-height: 60px;
+}
+.p_1{
+  text-align: justify;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+.card {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 6px 3px #0000008c;
+  text-align: center !important;
+  height: 600px;
+  width: auto;
+}
+.card-body{
+  padding: 15px;
+  color: white;
+}
+
+.card-img-top{
+  max-width: 100%;
+  height: 420px;
+  border-bottom: 5px solid black;
+  border-radius: 20px;
+}
+.card-title{
+  margin: 0px auto;
+  color:#FF8103;
+  font-family:"Lugrasimo", cursive;
+  font-weight: 900;
+  text-decoration: underline;
+  
+}
+.card-text{
+  color:black;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.badge.badge-secondary{
+  background-color: #FF1C6A;
+}
+.badge.badge-outline {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.btn_go:hover{
+  background-color: #FF1C6A;
+}
+a.btn.btn-primary.btn_2{
+  font-size: 18px;
+  border: 2px solid black;
+  background-color: #FF1C6A;
+}
+a.btn.btn-primary.btn_2:hover{
+  background-color: #FF8103;
+}
+.footer{
+  background-color: #ff8103;
+  color: white;
+  font-size: 20px;
+  height: 170px !important;
+}
+.nav_2{
+  font-size: 24px;
+  font-family: popings,sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.nav_2 a{
+  text-shadow: 1px -2px 3px #FF1C6A;
+}
+.p_4{
+  font-size: 19px;
+}
+.p_3{
+  font-size: 16px;
+}
+.nav_2 a:hover{
+  text-shadow: 1px -2px 3px #FF1C6A;
+  color: black;
+  font-size: 25px;
+}
+/* .dark\:bg-white-900.bg-white.dark\:text-white.wrapper {
+  opacity: 0.2;
+} */
+
+
+/* Login Pop Up CSS */
+.log_1{
+  background-color: white;
+  box-shadow: 3px -3px 7px 3px #FF8103;
+  text-align: center;
+
+}
+.h_3{
+  font-size: 35px;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.in_1{
+  margin-left: 20px;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+.span_1{
+  font-size: 18px;
+  font-weight: 900;
+}
+.btn_4{
+    background-color: #FF1C6A;
+    font-size: 22px;
+    padding: 10px;
+    width: 100px;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+.d_1{
+  margin: 50px 0px;
+}
+.in_3{
+  font-size: 18px;
+}
+.in_3 a{
+  color: #ff8103 !important;
+  font-weight: 900;
+  letter-spacing: 2px;
+  border: 2px solid #FF8103;
+  padding: 5px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.app_page {
+  background-image: url("images/img2.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background: linear-gradient(60deg, #ff8103 0% , #FBDD49 100%);
+  justify-content: none;
+}
+.sign_1{
+  max-height: none;
+  max-width: none;
+  text-align: center;
+  width: 700px;
+  height: 600px;
+  background-color: #ff1c6a45;
+  box-shadow: 2px 2px 20px 3px #ffffff45;
+  border: 2px ridge white;
+}
+
+.h_4{
+  font-size: 50px;
+  color: #ff8103;
+  letter-spacing: 5px;
+  text-shadow: 3px 2px 2px #000000;
+  margin: 30px 0px 50px 0px;
+  font-family: popings;
+  font-weight: 900;
+}
+.lbl_1{
+  color: #FF1C6A;
+  font-size: 30px;
+  text-shadow: 3px 1px 2px black;
+  letter-spacing: 2px;
+  margin: auto 0px;
+  font-weight: 900;
+  font-family: robotto;
+
+}
+.txt_3{
+  margin-left: 30px;
+  margin-bottom: 30px !important;
+  font-size: 19px;
+}
+.btn_5{
+  background-color: #ff8103;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 15px;
+  font-weight: 700;
+  font-family: robotto;
+}
+.btn_5:hover{
+  font-size: 26px;
+  color: black;
+}
+.txt_4{
+  color: black;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.btn_6{
+  font-size: 25px;
+  color: #FF1C6A;
+  border: 2px solid black;
+  background-color:white;
+  padding: 15px;
+  text-decoration: none;
+}.btn_6:hover {
+  font-size: 22px;
+  color: white;
+  border: 2px solid black;
+  background-color:#FF1C6A;
+  padding: 15px;
+  text-decoration: none;
+}
+
+/* About Us Page CSS */
+.aboutus{
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .aboutus p{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 62px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: black;
+  }
+.aboutus img{
+  border: 5px solid black;
+  box-shadow: 2px 2px 2px 2px #ff1c6a9c;
+}
+.abt_1{
+  margin-top: 65px;
+  margin-left: 40px;
+}
+.abt_2{
+  width: 60%;
+  margin: 0px 40px;
+
+}
+
+/* Contact Us Page CSS */
+
+.contact{
+  margin-top: 66px !important;
+  max-width: auto;
+  margin:auto;
+  padding: 20px;
+  height: 450px;
+  text-align: center;
+}
+.contact h1{
+  font-size: 50px;
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: roboto, sans-serif;
+  color: #ff1c6a !important;
+  font-weight: 700;
+}
+.c_div_1{
+  width: 40%;
+  float: left;
+}
+.c_div_2{
+  width: 50%;
+  float: left;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: inset 0px 0px 6px 4px #ffc22d;
+  margin-top: 50px;
+  text-align: left;
+  line-height: 50px;
+  margin-left: 10px;
+
+}
+.c_div_2 svg{
+  display: inline-block;
+}
+.log_out_btn{
+  border: 2px solid black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: #ff1c6a;
+}
+.log_out_btn:hover{
+  background-color: black;
+  border: 2px solid white;
+}
+
+/* Courses Page CSS */
+.cl_1{
+  margin-top: 66px;
+}
+.h_6{
+  padding-top: 40px;
+  font-size: 60px !important;
+  letter-spacing: 2px;
+  line-height: 140px !important;
+  word-spacing: 5px;
+  color: black;
+  font-family: 'Lugrasimo';
+}
+.btn_3{
+  background-color: #ff1c6a;
+  font-size: 20px;
+  color: white;
+  font-weight: 800;
+  font-family: roboto, sans-serif;
+  padding: 15px;
+  letter-spacing: 2px;
+  border: 2px solid black;
+}
+
+.btn_3:hover{
+  color: black;
+  font-size: 22px;
+}
+.btn_8 img{
+  width: 70px;
+  height: 60px;
+  max-width: none;
+  border: 2px solid white; 
+  box-shadow: inset 0px 0px 20px 13px white;
+}
+/* thank you pge css */
+
+.div_b{
+  text-align: center;
+}
+.ty_h{
+  font-size: 45px;
+  color: black;
+  padding: 0px 40px 40px 40px;
+  text-align: center;
+  font-family: rohot;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.btn_back{
+  font-size:25px;
+  background-color: #FF1C6A;
+  margin-bottom: 50px;
+  color: black;
+  border: 3px solid black;
+}
+.btn_back:hover{
+  background-color: black;
+  color:#FF1C6A;
+  border: 3px solid #FF1C6A;
+}
+
+.div_hide{
+  display: none;
+}
